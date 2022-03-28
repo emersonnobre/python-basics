@@ -5,3 +5,6 @@ class Student:
         self.name =  name
         self.birthday = birthday
         self.is_problematic = is_problematic
+
+    def showinfo(self):
+        print("name: {name}\nbirthday: {birthday}\nis_problematic? {is_problematic}".format(name = self.name, birthday = self.birthday, is_problematic = self.is_problematic))
